@@ -1,1 +1,1 @@
-web: gunicorn app: stualysis
+web: gunicorn app: app
