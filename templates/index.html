@@ -21,7 +21,7 @@
             anonymous.</p>
             <h2 id="description"><b>{{ prediction_text }}</b></h2>
 
-            <form id="prediction-form" action="{{url_for('predict')}}" method="post">
+            <form id="prediction-form" action="{{url_for('predict')}}" method="GET">
                 <fieldset>
                     <!-- groups of widgets that share the same purpose, for styling and semantic purposes -->
                     <legend>Family's Educational Background</legend>
