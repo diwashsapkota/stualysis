@@ -1,5 +1,3 @@
-!pip install pyngrok
-!pip install flask_ngrok
 from pyngrok import ngrok
 
 ngrok.set_auth_token('23FQOPv2TJNiuaPmmm7MUuzSwd6_5BMazik7iC6AZr855sC4N')
